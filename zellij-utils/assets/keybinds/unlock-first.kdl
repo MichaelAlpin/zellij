@@ -53,6 +53,7 @@ keybinds {
         bind "u" { MutePane; SwitchToMode "Locked"; }
         bind "g" { IgnorePaneOutput; SwitchToMode "Locked"; }
         bind "v" { WatchPane; SwitchToMode "Locked"; }
+        bind "+" { NewPane "Right"; NewPane "Down"; MoveFocus "Left"; NewPane "Down"; MoveFocus "Up"; SwitchToMode "Normal"; }
     }
     move {
         bind "m" { SwitchToMode "Normal"; }
